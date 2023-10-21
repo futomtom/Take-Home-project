@@ -13,8 +13,8 @@
 
 |  |  |  |
 | - | - | - |
-| iPhone 8 | iPhone 15 | Video |
-| <img src="Screenshots/iphone8.png" height="300"> | <img src="Screenshots/iphone15.png" height="300"> |  <img src="Screenshots/video.gif" height="300">  |
+| inVision | iPhone 15 | Video |
+| <img src="Screenshots/inVision.jpg" height="300"> | <img src="Screenshots/iphone15.png" height="300"> |  <img src="Screenshots/video.gif" height="300">  |
 
 
 
