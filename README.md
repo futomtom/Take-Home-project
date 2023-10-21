@@ -14,7 +14,7 @@
 |  |  |  |
 | - | - | - |
 | inVision | iPhone 15 | Video |
-| <img src="Screenshots/inVision.jpg" height="300"> | <img src="Screenshots/iphone15.png" height="300"> |  <img src="Screenshots/video.gif" height="300">  |
+| <img src="Screenshots/invision.jpg" height="300"> | <img src="Screenshots/iphone15.png" height="300"> |  <img src="Screenshots/video.gif" height="300">  |
 
 
 
