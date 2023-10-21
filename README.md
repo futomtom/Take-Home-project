@@ -8,12 +8,6 @@
 - [x] Please build out the Network Layer & Folder structure as if this was a full scale app
 - [x]No Enviornment Objects please (too buggy in full scale, a better solution is UserDefaults)
 
-## Instructions:
-
-1. Clone template to your profile
-2. After completing, add me to your project with username _DevboiDesigns_ and email *chris@stocklift.co*
-
-
 
 ### Screenshots
 
@@ -32,4 +26,4 @@
 
 3. I prefer using Async/Await, which I find more readable than Combine.
 
-4. I spent about 7-8 hours on this project. It appears there are no specific news feed UI designs in InVision. If I have more time, I will finish the feed UI.
+4. I spent about 7-8 hours on this project. It appears there are no specific news feed UI designs in InVision. And if I have more time, I will finish the feed UI.
