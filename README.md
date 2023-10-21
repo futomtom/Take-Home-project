@@ -4,7 +4,7 @@
 
 - [x] SwiftUI 
 - [x] Minimum Deployment 14
-- [ ] Follow the Design to exact details: `Need access permission to inspect Font size info in inVision`
+- [ ] Follow the Design to exact details: `Lacking the necessary access permissions to review UI dimension information in InVision.`
 - [x] Please build out the Network Layer & Folder structure as if this was a full scale app
 - [x]No Enviornment Objects please (too buggy in full scale, a better solution is UserDefaults)
 
