@@ -12,9 +12,7 @@ struct ProfileHeader: View {
                 }
             )
             .frame(height: 440)
-            .clipShape(
-                RoundedRectangle(cornerRadius: 20)
-            )
+            .clipShape(.rect(cornerRadius: 20))
             .padding(.horizontal)
     }
 

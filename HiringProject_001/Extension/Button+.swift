@@ -5,6 +5,6 @@ extension Button {
         padding()
             .frame(minWidth: 0, maxWidth: .infinity)
             .background(Color.blue)
-            .clipShape(Capsule())
+            .clipShape(.capsule)
     }
 }

@@ -5,7 +5,7 @@ extension Image {
         let circleWidth = withStroke ? rect.width + 10 : rect.width
         return resizable()
             .aspectRatio(contentMode: .fill)
-            .clipShape(Circle())
+            .clipShape(.circle)
             .frame(width: rect.width, height: rect.height)
             .transition(.opacity)
             .overlay(

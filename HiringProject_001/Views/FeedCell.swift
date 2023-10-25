@@ -14,9 +14,7 @@ struct FeedCell: View {
                 }
             )
             .frame(height: 480)
-            .clipShape(
-                RoundedRectangle(cornerRadius: 20)
-            )
+            .clipShape(.rect(cornerRadius: 20))
             .padding(.horizontal)
     }
 
