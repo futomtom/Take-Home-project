@@ -4,9 +4,9 @@ struct RowView: View {
     let title: String
     let value: String
 
-    init(title: String, value: String, shouldCapitalized: Bool = true) {
+    init(title: String, value: String, shouldCapitalized: Bool =  true) {
         self.title = title.capitalized
-        self.value = shouldCapitalized ? value.capitalized : value
+        self.value =  shouldCapitalized ? value.capitalized : value
     }
 
     var body: some View {
