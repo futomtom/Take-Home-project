@@ -1,23 +1,15 @@
-name: MyTask
-
+name: Danger
 on:
-  push:
-    branches: ["main"]
   pull_request:
-    branches: ["main"]
-
+    paths:
+      - ".swiftlint.yml"
+      - "**/*.swift"
 jobs:
-  hello:
+  Danger:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: hello world
-        run: echo "Hello world"
-        shell: bash
-
-  goodbye:
-    runs-on: ubuntu-latest
-    steps:
-      - name: goodbye world
-        run: echo "Goodbye"
-        shell: bash
+      - uses: actions/checkout@v3
+      - name: Danger
+        uses: 417-72KI/danger-swiftlint@v5.9 # Look at the `Note for version`
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
