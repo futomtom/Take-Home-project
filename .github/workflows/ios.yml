@@ -1,4 +1,4 @@
-name: Danger
+name: Danger2
 on:
   pull_request:
     paths:
